@@ -3,6 +3,11 @@ A simple and interactive Machine Learning–powered Diabetes Prediction Web App 
 
 Users can enter basic health parameters, and the model predicts the probability of diabetes along with clear health range interpretations.
 
+# 📜 About
+
+This project is designed using an ML model trained on health parameters related to diabetes.
+It serves as a quick-use tool for learning ML deployment, building Streamlit UI, and creating real-world health prediction systems.
+
 # 🚀 Features
 
 🎯 Diabetes risk prediction using ML
@@ -46,8 +51,3 @@ Diabetes-Prediction-App
 
 pip install -r requirements.txt
 streamlit run app.py
-
-# 📜 About
-
-This project is designed using an ML model trained on health parameters related to diabetes.
-It serves as a quick-use tool for learning ML deployment, building Streamlit UI, and creating real-world health prediction systems.
