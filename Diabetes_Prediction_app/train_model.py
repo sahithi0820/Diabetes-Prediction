@@ -8,7 +8,7 @@ from pathlib import Path
 import json
 import numpy as np
 
-DATA_PATH = Path(r"C:\Users\sahithi mudumbai\Desktop\Diabetes Prediction app\data\diabetes.csv")
+DATA_PATH = Path("data/diabetes.csv")
 MODEL_DIR = Path("model")
 MODEL_PATH = MODEL_DIR / "diabetes_model.pkl"
 METRICS_PATH = MODEL_DIR / "metrics.json"
@@ -60,4 +60,5 @@ def train_and_save(path = DATA_PATH, model_path = MODEL_PATH, metrics_path=METRI
     print(f"Saved metrics to {metrics_path}")
 
 if __name__ == "__main__":
+
     train_and_save()
