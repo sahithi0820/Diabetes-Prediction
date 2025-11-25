@@ -30,14 +30,20 @@ Users can enter basic health parameters, and the model predicts the probability 
 •Joblib (for model loading)
 
 # 📂 Project Structure
-📁 Diabetes-Prediction-App
-│── app.py
-│── model.pkl
-│── scaler.pkl
-│── requirements.txt
-│── README.md
+Diabetes-Prediction-App
 
-# ▶️ Run Locally
+  │── app.py
+
+  │── model.pkl
+
+  │── scaler.pkl
+  
+  │── requirements.txt
+  
+  │── README.md
+
+> ▶️ Run Locally
+
 pip install -r requirements.txt
 streamlit run app.py
 
