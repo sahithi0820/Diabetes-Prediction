@@ -12,9 +12,9 @@ import json
 import os
 
 # Paths
-MODEL_PATH = Path(r"C:\Users\sahithi mudumbai\Desktop\Diabetes Prediction app\model\diabetes_model.pkl")
-DATA_PATH = Path(r"C:\Users\sahithi mudumbai\Desktop\Diabetes Prediction app\data\diabetes.csv")
-METRICS_PATH = Path(r"C:\Users\sahithi mudumbai\Desktop\Diabetes Prediction app\model\metrics.json")
+MODEL_PATH = Path("model/diabetes_model.pkl")
+DATA_PATH = Path("data/diabetes.csv")
+METRICS_PATH = Path("model/metrics.json")
 
 # Initialize DB
 init_db()
@@ -305,3 +305,4 @@ else:
 st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("<p style='text-align:center;padding:10px;color:#3e6d52;'>Made with ❤️</p>", unsafe_allow_html=True)
+
