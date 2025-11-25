@@ -1,4 +1,4 @@
-# Diabetes-Prediction System
+# 💉Diabetes-Prediction System
 A simple and interactive Machine Learning–powered Diabetes Prediction Web App built using Streamlit.
 
 Users can enter basic health parameters, and the model predicts the probability of diabetes along with clear health range interpretations.
@@ -50,4 +50,5 @@ Diabetes-Prediction-App
 > ▶️ Run Locally
 
 pip install -r requirements.txt
+
 streamlit run app.py
