@@ -16,6 +16,12 @@ MODEL_PATH = Path("model/diabetes_model.pkl")
 DATA_PATH = Path("data/diabetes.csv")
 METRICS_PATH = Path("model/metrics.json")
 
+# Quick directory setup
+import os
+os.makedirs("data", exist_ok=True)
+os.makedirs("model", exist_ok=True) 
+os.makedirs("db", exist_ok=True)
+
 # Initialize DB
 init_db()
 
@@ -305,3 +311,4 @@ else:
 st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("<p style='text-align:center;padding:10px;color:#3e6d52;'>Made with ❤️</p>", unsafe_allow_html=True)
+
